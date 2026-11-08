@@ -1,9 +1,9 @@
 :root {
-      --blue: #a36b2e; --aqua: #d9a35a; --ink: #1c1c1e; --muted: #6e6e73;
+      --blue: #c95a17; --aqua: #e8893f; --ink: #1c1c1e; --muted: #6e6e73;
       --card: #f2f2f7; --bg: #ffffff; --hair: rgba(0,0,0,.08);
     }
     @media (prefers-color-scheme: dark) {
-      :root { --blue: #c8863a; --ink: #f2f2f7; --muted: #a1a1a6; --card: #1c1c1e; --bg: #000; --hair: rgba(255,255,255,.1); }
+      :root { --blue: #f0813a; --ink: #f2f2f7; --muted: #a1a1a6; --card: #1c1c1e; --bg: #000; --hair: rgba(255,255,255,.1); }
     }
     * { box-sizing: border-box; }
     body { margin: 0; background: var(--bg); color: var(--ink);
@@ -33,7 +33,7 @@
     nav a:hover { opacity: 1; }
     nav a.cta { opacity: 1; color: #fff; background: var(--blue); font-weight: 600; font-size: .9rem;
                 padding: .4rem .9rem; border-radius: 999px; transition: background .15s; }
-    nav a.cta:hover { background: #8c5a24; }
+    nav a.cta:hover { background: #a5470f; }
 
     /* The hero glow lives on the page so it continues under the header. */
     body.home { position: relative; }
